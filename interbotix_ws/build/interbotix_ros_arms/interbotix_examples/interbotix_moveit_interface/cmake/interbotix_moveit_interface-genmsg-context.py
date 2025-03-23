@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/srv/MoveItPlan.srv"
+services_str = "/home/anusha2631/CS5335_Final_Project/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/srv/MoveItPlan.srv"
 pkg_name = "interbotix_moveit_interface"
 dependencies_str = "geometry_msgs;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

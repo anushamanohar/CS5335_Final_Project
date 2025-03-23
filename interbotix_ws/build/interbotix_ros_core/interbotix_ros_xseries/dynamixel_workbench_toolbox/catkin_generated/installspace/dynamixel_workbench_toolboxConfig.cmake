@@ -67,14 +67,14 @@ set(dynamixel_workbench_toolbox_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamixel_workbench_toolbox_SOURCE_PREFIX /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox)
-  set(dynamixel_workbench_toolbox_DEVEL_PREFIX /home/anusha2631/interbotix_ws/devel)
+  set(dynamixel_workbench_toolbox_SOURCE_PREFIX /home/anusha2631/CS5335_Final_Project/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox)
+  set(dynamixel_workbench_toolbox_DEVEL_PREFIX /home/anusha2631/CS5335_Final_Project/interbotix_ws/devel)
   set(dynamixel_workbench_toolbox_INSTALL_PREFIX "")
   set(dynamixel_workbench_toolbox_PREFIX ${dynamixel_workbench_toolbox_DEVEL_PREFIX})
 else()
   set(dynamixel_workbench_toolbox_SOURCE_PREFIX "")
   set(dynamixel_workbench_toolbox_DEVEL_PREFIX "")
-  set(dynamixel_workbench_toolbox_INSTALL_PREFIX /home/anusha2631/interbotix_ws/install)
+  set(dynamixel_workbench_toolbox_INSTALL_PREFIX /home/anusha2631/CS5335_Final_Project/interbotix_ws/install)
   set(dynamixel_workbench_toolbox_PREFIX ${dynamixel_workbench_toolbox_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/anusha2631/interbotix_ws/install/lib;/home/anusha2631/interbotix_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/anusha2631/CS5335_Final_Project/interbotix_ws/install/lib;/home/anusha2631/interbotix_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

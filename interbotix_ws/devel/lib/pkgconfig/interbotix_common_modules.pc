@@ -1,4 +1,4 @@
-prefix=/home/anusha2631/interbotix_ws/devel
+prefix=/home/anusha2631/CS5335_Final_Project/interbotix_ws/devel
 
 Name: interbotix_common_modules
 Description: Description of interbotix_common_modules
