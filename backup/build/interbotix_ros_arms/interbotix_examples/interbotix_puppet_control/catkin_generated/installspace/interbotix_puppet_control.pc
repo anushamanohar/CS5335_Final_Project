@@ -1,4 +1,4 @@
-prefix=/home/anusha2631/interbotix_ws/install
+prefix=/home/anusha2631/CS5335_Final_Project/backup/install
 
 Name: interbotix_puppet_control
 Description: Description of interbotix_puppet_control

@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,23 +43,23 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dual.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dual.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xsarm_dual/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dualConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dualConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dualConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/catkin_generated/installspace/interbotix_xsarm_dualConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xsarm_dual" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xsarm_dual" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

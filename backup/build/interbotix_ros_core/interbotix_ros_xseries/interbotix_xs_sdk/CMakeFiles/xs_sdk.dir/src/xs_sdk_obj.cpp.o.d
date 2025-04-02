@@ -1,7 +1,7 @@
 interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/CMakeFiles/xs_sdk.dir/src/xs_sdk_obj.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/src/xs_sdk_obj.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/src/xs_sdk_obj.cpp \
  /usr/include/stdc-predef.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/include/interbotix_xs_sdk/xs_sdk_obj.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/include/interbotix_xs_sdk/xs_sdk_obj.h \
  /opt/ros/noetic/include/ros/ros.h /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
  /usr/include/c++/9/cstdlib \
@@ -1134,10 +1134,10 @@ interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/CMakeFiles/xs_sdk.d
  /opt/ros/noetic/include/std_msgs/Header.h \
  /opt/ros/noetic/include/trajectory_msgs/JointTrajectory.h \
  /opt/ros/noetic/include/trajectory_msgs/JointTrajectoryPoint.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_driver.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_tool.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_item.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_driver.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_tool.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_item.h \
  /opt/ros/noetic/include/dynamixel_sdk/dynamixel_sdk.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_bulk_read.h \
  /opt/ros/noetic/include/dynamixel_sdk/port_handler.h \
@@ -1145,24 +1145,24 @@ interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/CMakeFiles/xs_sdk.d
  /opt/ros/noetic/include/dynamixel_sdk/group_bulk_write.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_sync_read.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_sync_write.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/Reboot.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RebootRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RebootResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/MotorGains.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/MotorGainsRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/MotorGainsResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/TorqueEnable.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/TorqueEnableRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/TorqueEnableResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/OperatingModes.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/OperatingModesRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/OperatingModesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RegisterValues.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RegisterValuesRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RegisterValuesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointTrajectoryCommand.h
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/Reboot.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RebootRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RebootResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/MotorGains.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/MotorGainsRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/MotorGainsResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/TorqueEnable.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/TorqueEnableRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/TorqueEnableResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/OperatingModes.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/OperatingModesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/OperatingModesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RegisterValues.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RegisterValuesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RegisterValuesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointTrajectoryCommand.h

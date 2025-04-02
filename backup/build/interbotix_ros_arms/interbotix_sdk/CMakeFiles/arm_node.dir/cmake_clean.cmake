@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_sdk/arm_node"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_sdk/arm_node.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_sdk/arm_node"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_sdk/arm_node.pdb"
   "CMakeFiles/arm_node.dir/src/arm_node.cpp.o"
   "CMakeFiles/arm_node.dir/src/arm_node.cpp.o.d"
   "CMakeFiles/arm_node.dir/src/arm_obj.cpp.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xs_ros_control/xs_hardware_interface"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xs_ros_control/xs_hardware_interface.pdb"
   "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface.cpp.o"
   "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface.cpp.o.d"
   "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface_obj.cpp.o"

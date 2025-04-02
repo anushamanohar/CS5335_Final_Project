@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_diagnostic_tool/xsarm_diagnostic_listener"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_diagnostic_tool/xsarm_diagnostic_listener.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_diagnostic_tool/xsarm_diagnostic_listener"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_diagnostic_tool/xsarm_diagnostic_listener.pdb"
   "CMakeFiles/xsarm_diagnostic_listener.dir/src/xsarm_diagnostic_listener.cpp.o"
   "CMakeFiles/xsarm_diagnostic_listener.dir/src/xsarm_diagnostic_listener.cpp.o.d"
 )

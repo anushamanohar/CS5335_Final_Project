@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,67 +43,67 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/srv" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/srv/MoveItPlan.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/srv" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/srv/MoveItPlan.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/include/interbotix_moveit_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_moveit_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/roseus/ros/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_moveit_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_moveit_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_moveit_interface")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_moveit_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_moveit_interface")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interface-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interfaceConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interfaceConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interfaceConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/interbotix_moveit_interfaceConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_moveit_interface" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_moveit_interface" TYPE PROGRAM FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/moveit_interface_gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_moveit_interface" TYPE PROGRAM FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/moveit_interface_gui")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_moveit_interface" TYPE PROGRAM FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/moveit_python_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_moveit_interface" TYPE PROGRAM FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/catkin_generated/installspace/moveit_python_interface")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

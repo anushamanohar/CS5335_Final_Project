@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/libdynamixel_workbench_toolbox.pdb"
-  "/home/anusha2631/interbotix_ws/devel/lib/libdynamixel_workbench_toolbox.so"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/libdynamixel_workbench_toolbox.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/libdynamixel_workbench_toolbox.so"
   "CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o"
   "CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o.d"
   "CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o"

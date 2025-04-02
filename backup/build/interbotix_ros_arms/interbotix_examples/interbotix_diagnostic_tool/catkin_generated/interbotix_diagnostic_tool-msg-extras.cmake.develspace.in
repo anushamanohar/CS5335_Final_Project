@@ -1,2 +1,2 @@
-set(interbotix_diagnostic_tool_MESSAGE_FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/msg/MotorTemps.msg")
+set(interbotix_diagnostic_tool_MESSAGE_FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/msg/MotorTemps.msg")
 set(interbotix_diagnostic_tool_SERVICE_FILES "")

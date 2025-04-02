@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,63 +43,63 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/msg" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/msg/MotorTemps.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/msg" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/msg/MotorTemps.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/include/interbotix_diagnostic_tool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_diagnostic_tool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/roseus/ros/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_diagnostic_tool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_diagnostic_tool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_diagnostic_tool")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_diagnostic_tool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_diagnostic_tool")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_tool-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_toolConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_toolConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_toolConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/interbotix_diagnostic_toolConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_diagnostic_tool" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_diagnostic_tool" TYPE PROGRAM FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/bag2csv.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_diagnostic_tool" TYPE PROGRAM FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/catkin_generated/installspace/bag2csv.py")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,22 +43,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_tools.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_tools.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_tf_tools/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_toolsConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_toolsConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_toolsConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/catkin_generated/installspace/interbotix_tf_toolsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_tf_tools" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_tf_tools" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_tf_tools" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_tf_tools" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/config")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/interbotix_tf_tools/tf_rebroadcaster"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_tf_tools" TYPE EXECUTABLE FILES "/home/anusha2631/interbotix_ws/devel/lib/interbotix_tf_tools/tf_rebroadcaster")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interbotix_tf_tools" TYPE EXECUTABLE FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_tf_tools/tf_rebroadcaster")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/interbotix_tf_tools/tf_rebroadcaster" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/interbotix_tf_tools/tf_rebroadcaster")
     file(RPATH_CHANGE
@@ -84,6 +84,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

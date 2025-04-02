@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_moveit_interface/srv/_MoveItPlan.py"
-  "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_moveit_interface/srv/__init__.py"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_moveit_interface/srv/_MoveItPlan.py"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_moveit_interface/srv/__init__.py"
   "CMakeFiles/interbotix_moveit_interface_generate_messages_py"
 )
 

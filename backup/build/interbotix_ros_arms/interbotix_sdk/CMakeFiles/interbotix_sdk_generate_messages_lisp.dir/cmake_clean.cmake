@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/msg/JointCommands.lisp"
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/msg/SingleCommand.lisp"
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/srv/FirmwareGains.lisp"
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/srv/OperatingModes.lisp"
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/srv/RegisterValues.lisp"
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_sdk/srv/RobotInfo.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/msg/JointCommands.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/msg/SingleCommand.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/srv/FirmwareGains.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/srv/OperatingModes.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/srv/RegisterValues.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_sdk/srv/RobotInfo.lisp"
   "CMakeFiles/interbotix_sdk_generate_messages_lisp"
 )
 

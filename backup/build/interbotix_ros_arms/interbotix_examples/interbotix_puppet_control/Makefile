@@ -57,10 +57,10 @@ RM = /home/anusha2631/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anusha2631/interbotix_ws/src
+CMAKE_SOURCE_DIR = /home/anusha2631/CS5335_Final_Project/backup/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anusha2631/interbotix_ws/build
+CMAKE_BINARY_DIR = /home/anusha2631/CS5335_Final_Project/backup/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/anusha2631/interbotix_ws/build/CMakeFiles /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_puppet_control//CMakeFiles/progress.marks
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anusha2631/interbotix_ws/build/CMakeFiles 0
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_examples/interbotix_puppet_control//CMakeFiles/progress.marks
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/clean
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/preinstall
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/preinstall
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/rule
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ interbotix_puppet_control_xacro_generated_to_devel_space_: interbotix_ros_arms/i
 
 # fast build rule for target.
 interbotix_puppet_control_xacro_generated_to_devel_space_/fast:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/build
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/interbotix_puppet_control_xacro_generated_to_devel_space_.dir/build
 .PHONY : interbotix_puppet_control_xacro_generated_to_devel_space_/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/rule:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/rule
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ puppet_control_node: interbotix_ros_arms/interbotix_examples/interbotix_puppet_c
 
 # fast build rule for target.
 puppet_control_node/fast:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build
 .PHONY : puppet_control_node/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/rule:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/rule
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/rule
 
 # Convenience name for target.
@@ -210,7 +210,7 @@ puppet_control_single_node: interbotix_ros_arms/interbotix_examples/interbotix_p
 
 # fast build rule for target.
 puppet_control_single_node/fast:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build
 .PHONY : puppet_control_single_node/fast
 
 src/puppet_control_node.o: src/puppet_control_node.cpp.o
@@ -218,7 +218,7 @@ src/puppet_control_node.o: src/puppet_control_node.cpp.o
 
 # target to build an object file
 src/puppet_control_node.cpp.o:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.o
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.o
 .PHONY : src/puppet_control_node.cpp.o
 
 src/puppet_control_node.i: src/puppet_control_node.cpp.i
@@ -226,7 +226,7 @@ src/puppet_control_node.i: src/puppet_control_node.cpp.i
 
 # target to preprocess a source file
 src/puppet_control_node.cpp.i:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.i
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.i
 .PHONY : src/puppet_control_node.cpp.i
 
 src/puppet_control_node.s: src/puppet_control_node.cpp.s
@@ -234,7 +234,7 @@ src/puppet_control_node.s: src/puppet_control_node.cpp.s
 
 # target to generate assembly for a file
 src/puppet_control_node.cpp.s:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.s
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.s
 .PHONY : src/puppet_control_node.cpp.s
 
 src/puppet_control_single_node.o: src/puppet_control_single_node.cpp.o
@@ -242,7 +242,7 @@ src/puppet_control_single_node.o: src/puppet_control_single_node.cpp.o
 
 # target to build an object file
 src/puppet_control_single_node.cpp.o:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.o
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.o
 .PHONY : src/puppet_control_single_node.cpp.o
 
 src/puppet_control_single_node.i: src/puppet_control_single_node.cpp.i
@@ -250,7 +250,7 @@ src/puppet_control_single_node.i: src/puppet_control_single_node.cpp.i
 
 # target to preprocess a source file
 src/puppet_control_single_node.cpp.i:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.i
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.i
 .PHONY : src/puppet_control_single_node.cpp.i
 
 src/puppet_control_single_node.s: src/puppet_control_single_node.cpp.s
@@ -258,7 +258,7 @@ src/puppet_control_single_node.s: src/puppet_control_single_node.cpp.s
 
 # target to generate assembly for a file
 src/puppet_control_single_node.cpp.s:
-	cd /home/anusha2631/interbotix_ws/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.s
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(MAKE) $(MAKESILENT) -f interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/build.make interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_single_node.dir/src/puppet_control_single_node.cpp.s
 .PHONY : src/puppet_control_single_node.cpp.s
 
 # Help Target
@@ -294,6 +294,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

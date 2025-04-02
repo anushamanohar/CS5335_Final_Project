@@ -53,10 +53,10 @@ RM = /home/anusha2631/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anusha2631/interbotix_ws/src
+CMAKE_SOURCE_DIR = /home/anusha2631/CS5335_Final_Project/backup/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anusha2631/interbotix_ws/build
+CMAKE_BINARY_DIR = /home/anusha2631/CS5335_Final_Project/backup/build
 
 # Utility rule file for doxygen.
 
@@ -81,6 +81,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/interbotix_ws/src /home/anusha2631/interbotix_ws/src /home/anusha2631/interbotix_ws/build /home/anusha2631/interbotix_ws/build /home/anusha2631/interbotix_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/CS5335_Final_Project/backup/src /home/anusha2631/CS5335_Final_Project/backup/src /home/anusha2631/CS5335_Final_Project/backup/build /home/anusha2631/CS5335_Final_Project/backup/build /home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles/doxygen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/doxygen.dir/depend
 

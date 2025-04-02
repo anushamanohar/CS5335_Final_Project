@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_turret_control/msg/TurretJoyControl.lisp"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_turret_control/msg/TurretJoyControl.lisp"
   "CMakeFiles/interbotix_turret_control_generate_messages_lisp"
 )
 

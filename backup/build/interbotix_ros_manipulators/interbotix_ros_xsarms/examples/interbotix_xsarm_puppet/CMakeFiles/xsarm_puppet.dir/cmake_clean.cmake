@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_puppet/xsarm_puppet"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_puppet/xsarm_puppet.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_puppet/xsarm_puppet"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_puppet/xsarm_puppet.pdb"
   "CMakeFiles/xsarm_puppet.dir/src/xsarm_puppet.cpp.o"
   "CMakeFiles/xsarm_puppet.dir/src/xsarm_puppet.cpp.o.d"
 )

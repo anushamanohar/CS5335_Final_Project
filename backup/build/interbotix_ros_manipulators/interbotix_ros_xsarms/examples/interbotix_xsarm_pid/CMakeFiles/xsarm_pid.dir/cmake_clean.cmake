@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_pid/xsarm_pid"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xsarm_pid/xsarm_pid.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_pid/xsarm_pid"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_xsarm_pid/xsarm_pid.pdb"
   "CMakeFiles/xsarm_pid.dir/src/pid.cpp.o"
   "CMakeFiles/xsarm_pid.dir/src/pid.cpp.o.d"
   "CMakeFiles/xsarm_pid.dir/src/xsarm_pid.cpp.o"

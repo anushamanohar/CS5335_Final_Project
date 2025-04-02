@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,27 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/safe_execute_install.cmake")
+  include("/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modules.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modules.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_common_modules/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modulesConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modulesConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modulesConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/catkin_generated/installspace/interbotix_common_modulesConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_common_modules" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_common_modules" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

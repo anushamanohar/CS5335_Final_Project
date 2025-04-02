@@ -1,8 +1,8 @@
-prefix=/home/anusha2631/interbotix_ws/devel
+prefix=/home/anusha2631/CS5335_Final_Project/backup/devel
 
 Name: interbotix_turret_control
 Description: Description of interbotix_turret_control
 Version: 0.0.0
-Cflags: -I/home/anusha2631/interbotix_ws/devel/include
+Cflags: -I/home/anusha2631/CS5335_Final_Project/backup/devel/include
 Libs: -L${prefix}/lib 
 Requires: interbotix_sdk joy message_runtime roscpp rospy sensor_msgs std_msgs std_srvs

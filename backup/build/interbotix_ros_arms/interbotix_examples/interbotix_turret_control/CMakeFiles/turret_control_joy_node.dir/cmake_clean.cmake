@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_turret_control/turret_control_joy_node"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_turret_control/turret_control_joy_node.pdb"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_turret_control/turret_control_joy_node"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/interbotix_turret_control/turret_control_joy_node.pdb"
   "CMakeFiles/turret_control_joy_node.dir/src/turret_control_joy_node.cpp.o"
   "CMakeFiles/turret_control_joy_node.dir/src/turret_control_joy_node.cpp.o.d"
 )

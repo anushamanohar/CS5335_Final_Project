@@ -1,5 +1,5 @@
 interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/diagnostic_tool_node.dir/src/diagnostic_tool_node.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/diagnostic_tool_node.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/diagnostic_tool_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -1098,11 +1098,11 @@ interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/di
  /opt/ros/noetic/include/sensor_msgs/JointState.h \
  /opt/ros/noetic/include/ros/message_operations.h \
  /opt/ros/noetic/include/std_msgs/Header.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_diagnostic_tool/MotorTemps.h
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValuesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValuesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_diagnostic_tool/MotorTemps.h

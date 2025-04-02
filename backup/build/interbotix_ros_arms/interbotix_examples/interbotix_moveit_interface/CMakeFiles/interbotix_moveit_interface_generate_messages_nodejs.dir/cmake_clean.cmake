@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_moveit_interface/srv/MoveItPlan.js"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_moveit_interface/srv/MoveItPlan.js"
   "CMakeFiles/interbotix_moveit_interface_generate_messages_nodejs"
 )
 

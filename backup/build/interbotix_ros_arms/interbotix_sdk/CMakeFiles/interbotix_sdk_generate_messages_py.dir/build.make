@@ -53,10 +53,10 @@ RM = /home/anusha2631/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anusha2631/interbotix_ws/src
+CMAKE_SOURCE_DIR = /home/anusha2631/CS5335_Final_Project/backup/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anusha2631/interbotix_ws/build
+CMAKE_BINARY_DIR = /home/anusha2631/CS5335_Final_Project/backup/build
 
 # Utility rule file for interbotix_sdk_generate_messages_py.
 
@@ -66,77 +66,77 @@ include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_me
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/progress.make
 
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG interbotix_sdk/JointCommands"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG interbotix_sdk/JointCommands"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG interbotix_sdk/SingleCommand"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG interbotix_sdk/SingleCommand"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for interbotix_sdk"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg --initpy
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for interbotix_sdk"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg --initpy
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV interbotix_sdk/FirmwareGains"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV interbotix_sdk/FirmwareGains"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV interbotix_sdk/OperatingModes"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV interbotix_sdk/OperatingModes"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV interbotix_sdk/RegisterValues"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV interbotix_sdk/RegisterValues"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV interbotix_sdk/RobotInfo"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV interbotix_sdk/RobotInfo"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
-/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python srv __init__.py for interbotix_sdk"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv --initpy
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python srv __init__.py for interbotix_sdk"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv --initpy
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/codegen:
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/codegen
 
 interbotix_sdk_generate_messages_py: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
-interbotix_sdk_generate_messages_py: /home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_JointCommands.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/_SingleCommand.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/msg/__init__.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_FirmwareGains.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_OperatingModes.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RegisterValues.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/_RobotInfo.py
+interbotix_sdk_generate_messages_py: /home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_sdk/srv/__init__.py
 interbotix_sdk_generate_messages_py: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/build.make
 .PHONY : interbotix_sdk_generate_messages_py
 
@@ -145,10 +145,10 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_p
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/build
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/clean:
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/clean
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/depend:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/interbotix_ws/src /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/CS5335_Final_Project/backup/src /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_py.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DHAVE_NEW_YAMLCPP -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"interbotix_sdk\"
 
-CXX_INCLUDES = -I/home/anusha2631/interbotix_ws/devel/include -I/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/include -I/home/anusha2631/CS5335_Final_Project/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE
+CXX_INCLUDES = -I/home/anusha2631/CS5335_Final_Project/backup/devel/include -I/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/include -I/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE
 
 CXX_FLAGS = -std=c++11
 

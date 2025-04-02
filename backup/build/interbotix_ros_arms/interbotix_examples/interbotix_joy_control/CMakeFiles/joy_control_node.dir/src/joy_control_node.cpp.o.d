@@ -1,5 +1,5 @@
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/src/joy_control_node.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/src/joy_control_node.cpp \
  /usr/include/stdc-predef.h /opt/ros/noetic/include/ros/ros.h \
  /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
@@ -1098,4 +1098,4 @@ interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/joy_co
  /opt/ros/noetic/include/sensor_msgs/Joy.h \
  /opt/ros/noetic/include/ros/message_operations.h \
  /opt/ros/noetic/include/std_msgs/Header.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_joy_control/ArmJoyControl.h
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_joy_control/ArmJoyControl.h

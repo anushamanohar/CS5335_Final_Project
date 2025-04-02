@@ -1,8 +1,8 @@
-# Install script for directory: /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs
+# Install script for directory: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/interbotix_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anusha2631/CS5335_Final_Project/backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,78 +44,78 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/msg" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointGroupCommand.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointSingleCommand.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointTemps.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/ArmJoy.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/HexJoy.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/LocobotJoy.msg"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/TurretJoy.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointGroupCommand.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointSingleCommand.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/JointTemps.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/ArmJoy.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/HexJoy.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/LocobotJoy.msg"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/msg/TurretJoy.msg"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/srv" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/Reboot.srv"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/RobotInfo.srv"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/MotorGains.srv"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/TorqueEnable.srv"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/OperatingModes.srv"
-    "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/RegisterValues.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/Reboot.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/RobotInfo.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/MotorGains.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/TorqueEnable.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/OperatingModes.srv"
+    "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/srv/RegisterValues.srv"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_xs_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/roseus/ros/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_xs_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/common-lisp/ros/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_xs_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_xs_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_xs_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/anusha2631/CS5335_Final_Project/backup/devel/lib/python3/dist-packages/interbotix_xs_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/cmake" TYPE FILE FILES "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/cmake" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgs-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs/cmake" TYPE FILE FILES
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgsConfig.cmake"
-    "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgsConfig-version.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgsConfig.cmake"
+    "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/catkin_generated/installspace/interbotix_xs_msgsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs" TYPE FILE FILES "/home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interbotix_xs_msgs" TYPE FILE FILES "/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/anusha2631/interbotix_ws/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/install_local_manifest.txt"
+  file(WRITE "/home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -53,10 +53,10 @@ RM = /home/anusha2631/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anusha2631/interbotix_ws/src
+CMAKE_SOURCE_DIR = /home/anusha2631/CS5335_Final_Project/backup/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anusha2631/interbotix_ws/build
+CMAKE_BINARY_DIR = /home/anusha2631/CS5335_Final_Project/backup/build
 
 # Utility rule file for interbotix_sdk_generate_messages_nodejs.
 
@@ -66,53 +66,53 @@ include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_me
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/progress.make
 
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from interbotix_sdk/JointCommands.msg"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from interbotix_sdk/JointCommands.msg"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from interbotix_sdk/SingleCommand.msg"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from interbotix_sdk/SingleCommand.msg"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from interbotix_sdk/FirmwareGains.srv"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from interbotix_sdk/FirmwareGains.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from interbotix_sdk/OperatingModes.srv"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from interbotix_sdk/OperatingModes.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from interbotix_sdk/RegisterValues.srv"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from interbotix_sdk/RegisterValues.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv
 
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from interbotix_sdk/RobotInfo.srv"
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from interbotix_sdk/RobotInfo.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/codegen:
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/codegen
 
 interbotix_sdk_generate_messages_nodejs: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js
-interbotix_sdk_generate_messages_nodejs: /home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js
+interbotix_sdk_generate_messages_nodejs: /home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js
 interbotix_sdk_generate_messages_nodejs: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/build.make
 .PHONY : interbotix_sdk_generate_messages_nodejs
 
@@ -121,10 +121,10 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_n
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/build
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/clean:
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/clean
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/depend:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/interbotix_ws/src /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/CS5335_Final_Project/backup/src /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_nodejs.dir/depend
 

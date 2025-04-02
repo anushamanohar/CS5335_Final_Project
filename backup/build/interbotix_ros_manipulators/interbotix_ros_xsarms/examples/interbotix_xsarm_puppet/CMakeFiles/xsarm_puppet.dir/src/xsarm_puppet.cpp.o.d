@@ -1,5 +1,5 @@
 interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet/CMakeFiles/xsarm_puppet.dir/src/xsarm_puppet.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet/src/xsarm_puppet.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet/src/xsarm_puppet.cpp \
  /usr/include/stdc-predef.h /opt/ros/noetic/include/ros/ros.h \
  /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
@@ -1095,11 +1095,11 @@ interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_pupp
  /opt/ros/noetic/include/ros/this_node.h \
  /opt/ros/noetic/include/ros/param.h /opt/ros/noetic/include/ros/topic.h \
  /opt/ros/noetic/include/ros/node_handle.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
  /opt/ros/noetic/include/ros/message_operations.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
  /opt/ros/noetic/include/sensor_msgs/JointState.h \
  /opt/ros/noetic/include/std_msgs/Header.h

@@ -1,5 +1,5 @@
 interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/puppet_control_node.dir/src/puppet_control_node.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/src/puppet_control_node.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/src/puppet_control_node.cpp \
  /usr/include/stdc-predef.h /opt/ros/noetic/include/ros/ros.h \
  /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
@@ -1095,14 +1095,14 @@ interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/CMakeFiles/pup
  /opt/ros/noetic/include/ros/this_node.h \
  /opt/ros/noetic/include/ros/param.h /opt/ros/noetic/include/ros/topic.h \
  /opt/ros/noetic/include/ros/node_handle.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModesRequest.h \
  /opt/ros/noetic/include/ros/message_operations.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoResponse.h \
  /opt/ros/noetic/include/sensor_msgs/JointState.h \
  /opt/ros/noetic/include/std_msgs/Header.h \
  /opt/ros/noetic/include/std_msgs/Float64.h \

@@ -67,14 +67,14 @@ set(interbotix_xs_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(interbotix_xs_msgs_SOURCE_PREFIX /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs)
-  set(interbotix_xs_msgs_DEVEL_PREFIX /home/anusha2631/interbotix_ws/devel)
+  set(interbotix_xs_msgs_SOURCE_PREFIX /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs)
+  set(interbotix_xs_msgs_DEVEL_PREFIX /home/anusha2631/CS5335_Final_Project/backup/devel)
   set(interbotix_xs_msgs_INSTALL_PREFIX "")
   set(interbotix_xs_msgs_PREFIX ${interbotix_xs_msgs_DEVEL_PREFIX})
 else()
   set(interbotix_xs_msgs_SOURCE_PREFIX "")
   set(interbotix_xs_msgs_DEVEL_PREFIX "")
-  set(interbotix_xs_msgs_INSTALL_PREFIX /home/anusha2631/interbotix_ws/install)
+  set(interbotix_xs_msgs_INSTALL_PREFIX /home/anusha2631/CS5335_Final_Project/backup/install)
   set(interbotix_xs_msgs_PREFIX ${interbotix_xs_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/anusha2631/interbotix_ws/install/lib;/home/anusha2631/CS5335_Final_Project/interbotix_ws/devel/lib;/home/anusha2631/interbotix_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/anusha2631/CS5335_Final_Project/backup/install/lib;/home/anusha2631/CS5335_Final_Project/interbotix_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_joy_control/msg/ArmJoyControl.js"
+  "/home/anusha2631/CS5335_Final_Project/backup/devel/share/gennodejs/ros/interbotix_joy_control/msg/ArmJoyControl.js"
   "CMakeFiles/interbotix_joy_control_generate_messages_nodejs"
 )
 

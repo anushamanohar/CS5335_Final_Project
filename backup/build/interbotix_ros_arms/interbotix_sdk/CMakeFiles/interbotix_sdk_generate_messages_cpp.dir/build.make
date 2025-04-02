@@ -53,10 +53,10 @@ RM = /home/anusha2631/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anusha2631/interbotix_ws/src
+CMAKE_SOURCE_DIR = /home/anusha2631/CS5335_Final_Project/backup/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anusha2631/interbotix_ws/build
+CMAKE_BINARY_DIR = /home/anusha2631/CS5335_Final_Project/backup/build
 
 # Utility rule file for interbotix_sdk_generate_messages_cpp.
 
@@ -66,63 +66,63 @@ include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_me
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/progress.make
 
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_sdk/FirmwareGains.srv"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_sdk/FirmwareGains.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from interbotix_sdk/JointCommands.msg"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from interbotix_sdk/JointCommands.msg"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from interbotix_sdk/OperatingModes.srv"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from interbotix_sdk/OperatingModes.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from interbotix_sdk/RegisterValues.srv"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from interbotix_sdk/RegisterValues.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from interbotix_sdk/RobotInfo.srv"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from interbotix_sdk/RobotInfo.srv"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h: /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
-/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/interbotix_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from interbotix_sdk/SingleCommand.msg"
-	cd /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/interbotix_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h: /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
+/home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/anusha2631/CS5335_Final_Project/backup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from interbotix_sdk/SingleCommand.msg"
+	cd /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk && /home/anusha2631/CS5335_Final_Project/backup/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk -e /opt/ros/noetic/share/gencpp/cmake/..
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/codegen:
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/codegen
 
 interbotix_sdk_generate_messages_cpp: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h
-interbotix_sdk_generate_messages_cpp: /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_sdk_generate_messages_cpp: /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h
 interbotix_sdk_generate_messages_cpp: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/build.make
 .PHONY : interbotix_sdk_generate_messages_cpp
 
@@ -131,10 +131,10 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_c
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/build
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/clean:
-	cd /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/clean
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/depend:
-	cd /home/anusha2631/interbotix_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/interbotix_ws/src /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/interbotix_ws/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/anusha2631/CS5335_Final_Project/backup/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anusha2631/CS5335_Final_Project/backup/src /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk /home/anusha2631/CS5335_Final_Project/backup/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/depend
 

@@ -1,7 +1,7 @@
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/arm_node.dir/src/arm_obj.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/src/arm_obj.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/src/arm_obj.cpp \
  /usr/include/stdc-predef.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/arm_obj.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/arm_obj.h \
  /opt/ros/noetic/include/ros/ros.h /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
  /usr/include/c++/9/cstdlib \
@@ -1335,10 +1335,10 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/arm_node.dir/src/arm_obj.cpp.o: \
  /opt/ros/noetic/include/control_msgs/FollowJointTrajectoryResult.h \
  /opt/ros/noetic/include/control_msgs/FollowJointTrajectoryActionFeedback.h \
  /opt/ros/noetic/include/control_msgs/FollowJointTrajectoryFeedback.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_driver.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_tool.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_item.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_driver.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_tool.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_item.h \
  /opt/ros/noetic/include/dynamixel_sdk/dynamixel_sdk.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_bulk_read.h \
  /opt/ros/noetic/include/dynamixel_sdk/port_handler.h \
@@ -1346,18 +1346,18 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/arm_node.dir/src/arm_obj.cpp.o: \
  /opt/ros/noetic/include/dynamixel_sdk/group_bulk_write.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_sync_read.h \
  /opt/ros/noetic/include/dynamixel_sdk/group_sync_write.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModesRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGainsRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGainsResponse.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfoResponse.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/pid.h
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModes.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/OperatingModesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValues.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValuesRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RegisterValuesResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/JointCommands.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/SingleCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGains.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGainsRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/FirmwareGainsResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_sdk/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/pid.h

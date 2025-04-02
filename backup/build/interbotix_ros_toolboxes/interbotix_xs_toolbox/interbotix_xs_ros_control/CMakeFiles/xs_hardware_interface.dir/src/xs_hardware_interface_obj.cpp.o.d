@@ -1,7 +1,7 @@
 interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface_obj.cpp.o: \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/src/xs_hardware_interface_obj.cpp \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/src/xs_hardware_interface_obj.cpp \
  /usr/include/stdc-predef.h \
- /home/anusha2631/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface_obj.h \
+ /home/anusha2631/CS5335_Final_Project/backup/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface_obj.h \
  /opt/ros/noetic/include/ros/ros.h /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
  /usr/include/c++/9/cstdlib \
@@ -1402,10 +1402,10 @@ interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control/CMakeFi
  /opt/ros/noetic/include/controller_manager_msgs/SwitchControllerRequest.h \
  /opt/ros/noetic/include/controller_manager_msgs/SwitchControllerResponse.h \
  /opt/ros/noetic/include/controller_manager/controller_loader_interface.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfo.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
- /home/anusha2631/interbotix_ws/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointGroupCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/JointSingleCommand.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfo.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoRequest.h \
+ /home/anusha2631/CS5335_Final_Project/backup/devel/include/interbotix_xs_msgs/RobotInfoResponse.h \
  /opt/ros/noetic/include/sensor_msgs/JointState.h \
  /opt/ros/noetic/include/std_msgs/Header.h
