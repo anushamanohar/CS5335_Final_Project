@@ -1,8 +1,0 @@
-prefix=/home/anusha2631/CS5335_Final_Project/backup/install
-
-Name: interbotix_gazebo
-Description: Description of interbotix_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: controller_manager effort_controllers gazebo_ros gazebo_ros_control interbotix_descriptions joint_state_controller joint_trajectory_controller

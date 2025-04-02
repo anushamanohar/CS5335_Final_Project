@@ -1,8 +1,0 @@
-prefix=/home/anusha2631/CS5335_Final_Project/backup/devel
-
-Name: interbotix_xs_rviz
-Description: Description of interbotix_xs_rviz
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
