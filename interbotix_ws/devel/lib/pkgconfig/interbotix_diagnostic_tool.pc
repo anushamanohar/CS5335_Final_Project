@@ -1,8 +1,0 @@
-prefix=/home/rover/Documents/rss_project/interbotix_ws/devel
-
-Name: interbotix_diagnostic_tool
-Description: Description of interbotix_diagnostic_tool
-Version: 0.0.0
-Cflags: -I/home/rover/Documents/rss_project/interbotix_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: interbotix_sdk message_generation rosbag roscpp rospy rqt_plot sensor_msgs
