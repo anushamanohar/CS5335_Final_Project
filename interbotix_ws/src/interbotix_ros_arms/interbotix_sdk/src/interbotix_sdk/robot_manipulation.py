@@ -41,7 +41,7 @@ class InterbotixRobot(object):
     ### @param accel_time - refer to Notes above
     ### @param gripper_pressure - value from 0 to 1 representing the pressure the gripper should exert when grasping an object
     ### @param use_time - set to True if 'use_time_based_profile' was set to True when running the launch file; otherwise, set to False
-    def __init__(self, robot_name, mrd=None, robot_model=None, moving_time=2.0, accel_time=0.3, gripper_pressure=0.5, use_time=True):
+    def __init__(self, robot_name, mrd=None, robot_model=None, moving_time=5.0, accel_time=0.3, gripper_pressure=0.5, use_time=True):
         rospy.init_node(robot_name + "_robot_manipulation")                                                                         # Initialize ROS Node
         rospy.wait_for_service(robot_name + "/get_robot_info")                                                                      # Wait for ROS Services to become available
         rospy.wait_for_service(robot_name + "/set_operating_modes")
