@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_turret_control/manifest.l"
-  "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_turret_control/msg/TurretJoyControl.l"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/roseus/ros/interbotix_turret_control/manifest.l"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/roseus/ros/interbotix_turret_control/msg/TurretJoyControl.l"
   "CMakeFiles/interbotix_turret_control_generate_messages_eus"
 )
 

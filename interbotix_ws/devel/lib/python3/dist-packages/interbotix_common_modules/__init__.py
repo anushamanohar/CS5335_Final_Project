@@ -6,7 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-__extended_path = '/home/anusha2631/CS5335_Final_Project/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/src'.split(';')
+__extended_path = '/home/rover/Documents/rss_project/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

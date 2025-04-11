@@ -1,22 +1,22 @@
 
 "use strict";
 
-let JointTemps = require('./JointTemps.js');
-let JointSingleCommand = require('./JointSingleCommand.js');
-let JointGroupCommand = require('./JointGroupCommand.js');
-let ArmJoy = require('./ArmJoy.js');
-let JointTrajectoryCommand = require('./JointTrajectoryCommand.js');
-let LocobotJoy = require('./LocobotJoy.js');
 let TurretJoy = require('./TurretJoy.js');
+let ArmJoy = require('./ArmJoy.js');
+let JointSingleCommand = require('./JointSingleCommand.js');
+let JointTrajectoryCommand = require('./JointTrajectoryCommand.js');
+let JointTemps = require('./JointTemps.js');
+let JointGroupCommand = require('./JointGroupCommand.js');
 let HexJoy = require('./HexJoy.js');
+let LocobotJoy = require('./LocobotJoy.js');
 
 module.exports = {
-  JointTemps: JointTemps,
-  JointSingleCommand: JointSingleCommand,
-  JointGroupCommand: JointGroupCommand,
-  ArmJoy: ArmJoy,
-  JointTrajectoryCommand: JointTrajectoryCommand,
-  LocobotJoy: LocobotJoy,
   TurretJoy: TurretJoy,
+  ArmJoy: ArmJoy,
+  JointSingleCommand: JointSingleCommand,
+  JointTrajectoryCommand: JointTrajectoryCommand,
+  JointTemps: JointTemps,
+  JointGroupCommand: JointGroupCommand,
   HexJoy: HexJoy,
+  LocobotJoy: LocobotJoy,
 };

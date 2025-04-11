@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../../src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz/include/interbotix_xs_rviz/interbotix_control_panel.hpp"
+#include "interbotix_xs_rviz/interbotix_control_panel.hpp"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

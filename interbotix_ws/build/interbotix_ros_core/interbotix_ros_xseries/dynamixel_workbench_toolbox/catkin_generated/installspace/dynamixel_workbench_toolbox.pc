@@ -1,4 +1,4 @@
-prefix=/home/anusha2631/CS5335_Final_Project/interbotix_ws/install
+prefix=/home/rover/Documents/rss_project/interbotix_ws/install
 
 Name: dynamixel_workbench_toolbox
 Description: Description of dynamixel_workbench_toolbox

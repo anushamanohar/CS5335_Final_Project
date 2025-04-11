@@ -1,18 +1,18 @@
 
 "use strict";
 
-let RegisterValues = require('./RegisterValues.js')
-let TorqueEnable = require('./TorqueEnable.js')
-let RobotInfo = require('./RobotInfo.js')
 let MotorGains = require('./MotorGains.js')
-let OperatingModes = require('./OperatingModes.js')
+let RegisterValues = require('./RegisterValues.js')
 let Reboot = require('./Reboot.js')
+let RobotInfo = require('./RobotInfo.js')
+let OperatingModes = require('./OperatingModes.js')
+let TorqueEnable = require('./TorqueEnable.js')
 
 module.exports = {
-  RegisterValues: RegisterValues,
-  TorqueEnable: TorqueEnable,
-  RobotInfo: RobotInfo,
   MotorGains: MotorGains,
-  OperatingModes: OperatingModes,
+  RegisterValues: RegisterValues,
   Reboot: Reboot,
+  RobotInfo: RobotInfo,
+  OperatingModes: OperatingModes,
+  TorqueEnable: TorqueEnable,
 };

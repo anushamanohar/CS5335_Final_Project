@@ -1,12 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_sdk/arm_node"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_sdk/arm_node.pdb"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/interbotix_sdk/arm_node"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/interbotix_sdk/arm_node.pdb"
   "CMakeFiles/arm_node.dir/src/arm_node.cpp.o"
-  "CMakeFiles/arm_node.dir/src/arm_node.cpp.o.d"
   "CMakeFiles/arm_node.dir/src/arm_obj.cpp.o"
-  "CMakeFiles/arm_node.dir/src/arm_obj.cpp.o.d"
   "CMakeFiles/arm_node.dir/src/pid.cpp.o"
-  "CMakeFiles/arm_node.dir/src/pid.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

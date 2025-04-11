@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h"
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h"
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h"
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h"
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h"
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/FirmwareGains.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/JointCommands.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/OperatingModes.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/RegisterValues.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/RobotInfo.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_sdk/SingleCommand.h"
   "CMakeFiles/interbotix_sdk_generate_messages_cpp"
 )
 

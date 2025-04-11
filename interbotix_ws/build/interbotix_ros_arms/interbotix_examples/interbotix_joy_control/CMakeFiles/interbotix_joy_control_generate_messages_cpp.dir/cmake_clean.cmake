@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/include/interbotix_joy_control/ArmJoyControl.h"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/include/interbotix_joy_control/ArmJoyControl.h"
   "CMakeFiles/interbotix_joy_control_generate_messages_cpp"
 )
 

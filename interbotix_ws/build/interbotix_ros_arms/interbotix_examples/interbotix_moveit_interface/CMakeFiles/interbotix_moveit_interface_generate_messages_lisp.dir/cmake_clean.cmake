@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_moveit_interface/srv/MoveItPlan.lisp"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/common-lisp/ros/interbotix_moveit_interface/srv/MoveItPlan.lisp"
   "CMakeFiles/interbotix_moveit_interface_generate_messages_lisp"
 )
 

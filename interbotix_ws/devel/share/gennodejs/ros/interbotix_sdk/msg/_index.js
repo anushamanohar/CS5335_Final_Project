@@ -1,10 +1,10 @@
 
 "use strict";
 
-let SingleCommand = require('./SingleCommand.js');
 let JointCommands = require('./JointCommands.js');
+let SingleCommand = require('./SingleCommand.js');
 
 module.exports = {
-  SingleCommand: SingleCommand,
   JointCommands: JointCommands,
+  SingleCommand: SingleCommand,
 };

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js"
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js"
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js"
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js"
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js"
-  "/home/anusha2631/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/JointCommands.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/msg/SingleCommand.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/FirmwareGains.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/OperatingModes.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RegisterValues.js"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/gennodejs/ros/interbotix_sdk/srv/RobotInfo.js"
   "CMakeFiles/interbotix_sdk_generate_messages_nodejs"
 )
 

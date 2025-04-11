@@ -1,7 +1,7 @@
 <launch>
   <arg name="robot_name"                        default=""/>
   <arg name="robot_model"                       default="$(arg robot_name)"/>
-  <arg name="port"                              default="/dev/ttyDXL"/>
+  <arg name="port"                              default="/dev/ttyUSB0"/>
   <arg name="use_default_gripper_bar"           default="true"/>
   <arg name="use_default_gripper_fingers"       default="true"/>
   <arg name="arm_operating_mode"                default="position"/>

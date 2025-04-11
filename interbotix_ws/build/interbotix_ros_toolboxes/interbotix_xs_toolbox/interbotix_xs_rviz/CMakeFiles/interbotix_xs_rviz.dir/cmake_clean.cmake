@@ -2,12 +2,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/interbotix_xs_rviz_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/interbotix_xs_rviz_autogen.dir/ParseCache.txt"
   "interbotix_xs_rviz_autogen"
-  "/home/anusha2631/interbotix_ws/devel/lib/libinterbotix_xs_rviz.pdb"
-  "/home/anusha2631/interbotix_ws/devel/lib/libinterbotix_xs_rviz.so"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/libinterbotix_xs_rviz.pdb"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/libinterbotix_xs_rviz.so"
   "CMakeFiles/interbotix_xs_rviz.dir/interbotix_xs_rviz_autogen/mocs_compilation.cpp.o"
-  "CMakeFiles/interbotix_xs_rviz.dir/interbotix_xs_rviz_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/interbotix_xs_rviz.dir/src/interbotix_control_panel.cpp.o"
-  "CMakeFiles/interbotix_xs_rviz.dir/src/interbotix_control_panel.cpp.o.d"
   "ui_interbotix_control_panel.h"
 )
 

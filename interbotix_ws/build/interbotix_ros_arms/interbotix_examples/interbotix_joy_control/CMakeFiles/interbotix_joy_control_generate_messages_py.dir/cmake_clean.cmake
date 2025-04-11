@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_joy_control/msg/_ArmJoyControl.py"
-  "/home/anusha2631/interbotix_ws/devel/lib/python3/dist-packages/interbotix_joy_control/msg/__init__.py"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/python3/dist-packages/interbotix_joy_control/msg/_ArmJoyControl.py"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/python3/dist-packages/interbotix_joy_control/msg/__init__.py"
   "CMakeFiles/interbotix_joy_control_generate_messages_py"
 )
 

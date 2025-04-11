@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface"
-  "/home/anusha2631/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface.pdb"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/lib/interbotix_xs_ros_control/xs_hardware_interface.pdb"
   "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface.cpp.o"
-  "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface.cpp.o.d"
   "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface_obj.cpp.o"
-  "CMakeFiles/xs_hardware_interface.dir/src/xs_hardware_interface_obj.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

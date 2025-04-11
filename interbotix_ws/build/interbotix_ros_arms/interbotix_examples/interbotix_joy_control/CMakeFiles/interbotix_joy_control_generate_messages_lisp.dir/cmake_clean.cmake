@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_joy_control/msg/ArmJoyControl.lisp"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/common-lisp/ros/interbotix_joy_control/msg/ArmJoyControl.lisp"
   "CMakeFiles/interbotix_joy_control_generate_messages_lisp"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/anusha2631/CS5335_Final_Project/interbotix_ws/devel
+prefix=/home/rover/Documents/rss_project/interbotix_ws/devel
 
 Name: interbotix_xsarm_control
 Description: Description of interbotix_xsarm_control
