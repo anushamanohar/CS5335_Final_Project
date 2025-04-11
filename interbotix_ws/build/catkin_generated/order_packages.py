@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/anusha2631/CS5335_Final_Project/interbotix_ws/src'
+source_root_dir = '/home/rover/Documents/rss_project/interbotix_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/anusha2631/interbotix_ws/devel;/opt/ros/noetic'.split(';') if '/home/anusha2631/interbotix_ws/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []

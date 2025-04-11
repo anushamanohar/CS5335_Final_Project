@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_diagnostic_tool/manifest.l"
-  "/home/anusha2631/interbotix_ws/devel/share/roseus/ros/interbotix_diagnostic_tool/msg/MotorTemps.l"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/roseus/ros/interbotix_diagnostic_tool/manifest.l"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/roseus/ros/interbotix_diagnostic_tool/msg/MotorTemps.l"
   "CMakeFiles/interbotix_diagnostic_tool_generate_messages_eus"
 )
 

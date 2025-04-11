@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/anusha2631/interbotix_ws/devel/share/common-lisp/ros/interbotix_diagnostic_tool/msg/MotorTemps.lisp"
+  "/home/rover/Documents/rss_project/interbotix_ws/devel/share/common-lisp/ros/interbotix_diagnostic_tool/msg/MotorTemps.lisp"
   "CMakeFiles/interbotix_diagnostic_tool_generate_messages_lisp"
 )
 
