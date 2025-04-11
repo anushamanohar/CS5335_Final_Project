@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from interbotix_sdk.robot_manipulation import InterbotixRobot
 from interbotix_descriptions import interbotix_mr_descriptions as mrd
 from pynput import keyboard
@@ -63,6 +66,10 @@ def on_press(key):
         elif key.char == 't':  # Move to Sleep Position
             arm.go_to_sleep_pose()
             print("Moved to Sleep Position")
+        elif key.char == 'p':
+            x_val = input("X coordinate: ")
+            z_val = input("Z coordinate: ")
+            arm.set_ee__pose_components(x=float(x_val), z=float(z_val))
     except AttributeError:
         if key == keyboard.Key.esc:  # Exit program
             print("Exiting Program...")
@@ -83,7 +90,7 @@ def main():
     print(" ESC - Quit")
 
     # Move arm to a safe starting position
-    arm.go_to_home_pose()
+    
 
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
@@ -92,4 +99,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

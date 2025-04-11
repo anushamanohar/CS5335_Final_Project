@@ -1,0 +1,13 @@
+train: /Users/anusham/Desktop/RSS_dataset/new/train/images
+val: /Users/anusham/Desktop/RSS_dataset/new/valid/images
+test: /Users/anusham/Desktop/RSS_dataset/new/test/images
+
+nc: 26
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: asl-dataset
+  project: asl-alphabet-dataset
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/asl-dataset/asl-alphabet-dataset/dataset/2
