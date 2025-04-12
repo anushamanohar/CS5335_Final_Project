@@ -3,7 +3,7 @@ import torch
 
 def main():
     # Load the trained YOLOv5 model
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='/Users/anusham/Desktop/RSS_dataset/yolov5/runs/train/exp11/weights/best.pt', force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path="best.pt", force_reload=True)
     model.conf = 0.4  # Set confidence threshold
 
     # Start the webcam
