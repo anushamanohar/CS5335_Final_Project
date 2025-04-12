@@ -26,7 +26,7 @@
     <arg name="external_urdf_loc"               value="$(arg external_urdf_loc)"/>
     <arg name="use_default_rviz"                value="$(arg use_default_rviz)"/>
   </include>
-    <node pkg="interbotix_keyboard_control" type="word.py" name="keyboard_control_node" output="screen"/>
+    <node pkg="interbotix_keyboard_control" type="keyboard_control.py" name="keyboard_control_node" output="screen"/>
   <node
     name="arm_node"
     pkg="interbotix_sdk"
