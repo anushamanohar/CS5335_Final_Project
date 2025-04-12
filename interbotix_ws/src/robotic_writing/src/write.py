@@ -25,7 +25,7 @@ class Writer:
 
     # Function to pen up (lift the marker from the white board)
     def pen_up(self, x_point, y_point, z_point, roll):
-        self.arm.set_ee_pose_components(x=x_point, y=y_point, z=z_point, pitch=-1.7, roll=roll)
+        self.arm.set_ee_pose_components(x=x_point, y=y_point, z=z_point, pitch=-1.6, roll=roll)
 
     # The write function takes in a letter and sends the waypoints to the robot
     def write(self, letter, y_offset, z_offset, last):

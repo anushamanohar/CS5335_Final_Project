@@ -13,24 +13,37 @@ class wordWriter:
         text = self.detector.detect_asl()
         return text
 
+    def pad_string(self, s):
+        if len(s) < 7:
+            spaces_needed = 7 - len(s)
+            front_spaces = spaces_needed // 2 + (spaces_needed % 2)
+            return "_" * front_spaces + s
+        else:
+            return s
+
     def write_word(self, word):
-        y_offset = -0.05 #-0.09 -0.065
+        print(word)
+        word = self.pad_string(word)
+        y_offset = -0.09 #-0.09 -0.065
         z_offset = 0.4
         last = False
-        for i in range(len(word)):
+        limit = min(7, len(word))
+        last_y = -y_offset
+        for i in range(limit):
             if word[i] == " ":
-                y_offset = -last_y + 0.02 #y_offset+= 0.018
+                y_offset = y_offset + 0.03 #y_offset+= 0.018
+                continue
+            if word[i] == "_":
+                y_offset = -last_y + 0.025
                 continue
             if i == len(word)-1:
                 last = True
             last_y = self.writer_obj.write(word[i], y_offset, z_offset, last)
-            print("last y:", last_y)
             y_offset = -last_y + 0.03
 
 if __name__ == "__main__":
     obj = wordWriter()
-    #word = obj.get_word()
-    word = "ZHI"
+    word = obj.get_word()
     print("word", word)
     obj.write_word(word)
 
